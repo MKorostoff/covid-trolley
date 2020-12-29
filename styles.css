@@ -1,0 +1,40 @@
+body, html {
+  width: 100vh;
+  overflow-y: hidden;
+}
+#main {
+  background-image: url(bg.png);
+  width: 645px;
+  height: 430px;
+  overflow: visible;
+}
+.long {
+  background-image: url(long.png);
+  width: 1275px;
+  height: 100px;
+  position: absolute;
+  top: 202px;
+}
+.end {
+  position: absolute;
+  width: 400px;
+  top: 240px;
+  padding-right: 100px;
+}
+#back {
+  position: absolute;
+  left: 330px;
+  top: 254px;
+  width: 150px;
+}
+#quarantine {
+  position: absolute;
+  width: 300px;
+  left: 430px;
+  top: 110px;
+  transform: rotate(-11deg);
+}
+h1 {
+  font-size: 18px;
+  position: absolute;
+}
