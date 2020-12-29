@@ -1,6 +1,8 @@
-body, html {
-  width: 100vh;
-  overflow-y: hidden;
+@media (max-width: 600px) {
+  body, html {
+    width: 100vh;
+    overflow-y: hidden;
+  }
 }
 #main {
   background-image: url(bg.png);
